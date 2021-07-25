@@ -7,6 +7,10 @@ module.exports = {
     entry: './src/client/index.js',
     mode: 'production',
     module: {
+        output: {
+            libraryTarget: 'var',
+            library: 'Client'
+        },
         rules: [
             {
                 test: /\.css$/,
