@@ -13,7 +13,6 @@ The motive of this project is to have you a taste of the environment and tools y
 ## Introduction to Natural Language Processing
 
 NLP is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech.
-## What we will cover
 
 ## Project Requirements
 
