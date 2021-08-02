@@ -1,6 +1,6 @@
-# Webbpack Express Example App
+# Evaluate A News Article with Natural Language Processing
 
-![](images/divvy.JPG)
+![](images/nlp.jpeg)
 <img src="images/nlp.jpeg" width="1000">
 
 The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
