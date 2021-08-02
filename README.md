@@ -15,7 +15,7 @@ The motive of this project is to have you a taste of the environment and tools y
 NLP is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech.
 ## What we will cover
 
-### Project Requirements
+## Project Requirements
 
 * Webserver - Node
 * Web application framework for routing - Express
@@ -23,13 +23,13 @@ NLP is a subset of AI that provides computers ability to process or interact wit
 * External script - Service Worker
 * External API - MeaningCloud
 
-### Client-Server-API Architecture
+## Client-Server-API Architecture
 
 <img src="images/Architecture_NLP_MeaningCloudAPI.jpg" width="1000">
 
-### Get Up and Running
+## Get Up and Running
 
-## Installation
+### Installation
 Make sure Node and npm are installed from the terminal.
 ```
 node -v
