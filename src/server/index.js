@@ -1,3 +1,5 @@
+const dotenv = require('dotenv');
+dotenv.config();
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
@@ -32,10 +34,10 @@ app.get('/test', function (req, res) {
     res.json(mockAPIResponse);
 })
 
-let baseURL = "https://api.meaningcloud.com/sentiment-2.1?";
+let baseURL = `https://api.meaningcloud.com/sentiment-2.1?`;
 // API Key Developer Credentials
-let apiKey = "key=68695032a4eea07c76469366313e5b90&of=json&url=";
-let tailURL = "&lang=en";
+let apiKey = process.env.API_KEY
+let tailURL = `&lang=en`;
 
 // Setup empty JS object to act as endpoint for all routes
 projectData = [];
@@ -51,9 +53,9 @@ function addURL(req, res){
     projectData.push(newEntry)
     console.log(projectData)
 
-    let finalURL = baseURL + apiKey + req.body.userURL + tailURL;
+    const apiURL = `${baseURL}${apiKey}${req.body.userURL}${tailURL}`;
 
-    getTextAnalysis(baseURL, apiKey, req.body.userURL, tailURL)
+    getTextAnalysis(apiURL)
     .then(function(data){
         res.send(data);
 
@@ -61,11 +63,11 @@ function addURL(req, res){
   }
 
 // ASYNC FUNCTION: GET request to Meaning Cloud API
-const getTextAnalysis = async(baseURL, apiKey, userInput, tailURL)=>{
+const getTextAnalysis = async(apiURL)=>{
     // ASYNC: fetch from the URL, default GET request
-    console.log(baseURL + apiKey + userInput + tailURL);
+    console.log(apiURL);
 
-    const response = await fetch(baseURL + apiKey + userInput + tailURL);
+    const response = await fetch(apiURL);
     try {
         const data = await response.json();
         console.log(data);
