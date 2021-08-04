@@ -5,14 +5,15 @@
 ## About the Project
 The goal of this project is to build a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral.
 
-We will make use of an external API called MeaningCloud to interact with their NLP system. This tool will help us classify the information available in the article, like whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone. MeaningCloud has put a public-facing API in front of their NLP system. We will use it in our project to determine various attributes of an article or blog post.
-
-The motive of this project is to have you a taste of the environment and tools you will most likely come across in a front end role. 
-
+The motive of this project is to have a taste of the environment and tools you will most likely come across in a front end role. 
 
 ## Introduction to Natural Language Processing
 
 NLP is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech.
+
+## MeaningCloud API
+
+We will make use of an external API called MeaningCloud to interact with their NLP system. This tool will help us classify the information available in the article, like whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone. MeaningCloud has put a public-facing API in front of their NLP system. We will use it in our project to determine various attributes of an article or blog post.
 
 ## Project Requirements
 
@@ -73,3 +74,6 @@ Command | Action
 
 6. Open browser at http://localhost:3030/
 
+## Credits
+[Front End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011)
+#### ***This project is a graduation requirement for Udacity's Front End Web Developer Nanodegree.***
