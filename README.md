@@ -9,7 +9,7 @@ The motive of this project is to have a taste of the environment and tools you w
 
 ## Introduction to Natural Language Processing
 
-NLP is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech.
+Natural language processing (NLP) is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech. NLP is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.
 
 ## MeaningCloud API
 
@@ -40,6 +40,7 @@ npm -v
 ```
 cd <project directory>
 git clone <repo>
+git checkout branch 2-fixing-js
 npm install
 ```
 
