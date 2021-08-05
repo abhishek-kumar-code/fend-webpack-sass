@@ -65,6 +65,7 @@ Command | Action
 
 OR
 
+Command | Action
 :------------: | :-------------:
 `npm run build-dev` | Build project
 `npm run start` | Run project
