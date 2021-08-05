@@ -44,19 +44,9 @@ git checkout branch 2-fixing-js
 npm install
 ```
 
-2. Install loaders and plugins
-```
-# Choose the necessary installation for your development mode
-npm i -D @babel/core @babel/preset-env babel-loader
-npm i -D style-loader node-sass css-loader sass-loader
-npm i -D clean-webpack-plugin
-npm i -D html-webpack-plugin
-npm i -D mini-css-extract-plugin
-npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
-```
-3. Sign up for an API key at [meaningcloud.com](https://www.meaningcloud.com/developer/create-account)
+2. Sign up for an API key at [meaningcloud.com](https://www.meaningcloud.com/developer/create-account)
 
-4. Configure environment variables using dotenv package
+3. Configure environment variables using dotenv package
 	i. Install the dotenv package
 	```
 	npm install dotenv
@@ -66,14 +56,20 @@ npm i -D optimize-css-assets-webpack-plugin terser-webpack-plugin
 	```
 	API_KEY=**************************
 	```
-5. Start the project
+4. Start the project
 
 Command | Action
 :------------: | :-------------:
 `npm run build-prod` | Build project
-`npm start` | Run project
+`npm run start` | Run project
 
-6. Open browser at http://localhost:3030/
+OR
+
+:------------: | :-------------:
+`npm run build-dev` | Build project
+`npm run start` | Run project
+
+7. Open browser at http://localhost:3031/
 
 ## Credits
 [Front End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011)
