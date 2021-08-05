@@ -15,12 +15,12 @@ function handleSubmit(event) {
     Client.checkForName(formText)
 
     console.log("::: Form Submitted :::")
-    fetch('http://localhost:3030/test')
-    .then(res => {
-        return res.json()
-    })
-    .then(function(data) {
-    })
+    // fetch('http://localhost:3030/test')
+    // .then(res => {
+    //     return res.json()
+    // })
+    // .then(function(data) {
+    // })
 }
 
 export { handleSubmit }

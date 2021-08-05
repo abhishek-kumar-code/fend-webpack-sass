@@ -80,6 +80,6 @@ const getTextAnalysis = async(apiURL)=>{
 
 
 // designates what port the app will listen to for incoming requests
-app.listen(3030, function () {
-    console.log('Example app listening on port 3030!')
+app.listen(3031, function () {
+    console.log('Example app listening on port 3031!')
 })
