@@ -11,6 +11,12 @@ The motive of this project is to have a taste of the environment and tools you w
 
 Natural language processing (NLP) is a subset of AI that provides computers ability to process or interact with natural human speech. In NLP, machine learning and deep learning are used on massive amounts of data to obtain the rules and understanding of nuance in human speech. NLP is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.
 
+## Webpack
+
+At its core, webpack is a static module bundler for modern JavaScript applications. Webpack takes all the assets and “bundles” or combines them into fewer files that are much easier to manage. Notice that multiple .js files on the left became one .js file on the right - that’s because the two files were combined into one large .js file.
+
+<img src="images/webpack-bundles.png" width="800">
+
 ## MeaningCloud API
 
 We will make use of an external API called MeaningCloud to interact with their NLP system. This tool will help us classify the information available in the article, like whether the content is subjective (opinion) or objective (fact-based) and whether it is positive, neutral, or negative in tone. MeaningCloud has put a public-facing API in front of their NLP system. We will use it in our project to determine various attributes of an article or blog post.
@@ -27,7 +33,7 @@ We will make use of an external API called MeaningCloud to interact with their N
 
 <img src="images/Architecture_NLP_MeaningCloudAPI.jpg" width="1000">
 
-## Get Up and Running
+## How to get started with the project?
 
 ### Installation
 Make sure Node and npm are installed from the terminal.
