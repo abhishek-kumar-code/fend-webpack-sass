@@ -15,7 +15,7 @@ Natural language processing (NLP) is a subset of AI that provides computers abil
 
 At its core, webpack is a static module bundler for modern JavaScript applications. Webpack takes all the assets and “bundles” or combines them into fewer files that are much easier to manage. Notice that multiple .js files on the left became one .js file on the right - that’s because the two files were combined into one large .js file.
 
-<img src="images/webpack-bundles.png" width="800">
+<img src="images/webpack-bundles.png" width="1000">
 
 ## MeaningCloud API
 
